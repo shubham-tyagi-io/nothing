@@ -1,8 +1,139 @@
-body {
-  background: red;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-button {
-  background: #00b386;
+body,
+html {
+  height: 100%;
+  width: auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10%;
+}
+
+body .bg {
+  background: url(/img/Home/Background1.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+body button {
+  border: none;
+  border-radius: 60px;
+  background: #fed593;
+  width: 130px;
+  padding: 10px;
+  font-size: 0.83rem;
+  margin: 8px;
+  font-weight: bold;
+}
+
+body button a {
+  text-decoration: none;
+  color: #233a67;
+  padding: 10px;
+  border-radius: 60px;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: linear-gradient(90.13deg, #233a67 23.7%, rgba(35, 58, 103, 0.621164) 42.11%, rgba(35, 58, 103, 0) 102.21%);
+}
+
+body header img {
+  height: 8vh;
+}
+
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 30px;
+}
+
+body section .illustration img {
+  width: 100%;
+  height: auto;
+}
+
+body section .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+body section .content {
+  border-radius: 60px;
+  border: #fed593 10px solid;
+  text-align: justify;
+  background: #ffffff;
+  padding: 30px;
+}
+
+body section h1 {
+  font-weight: 800;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+body section p {
+  font-size: 1.25rem;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .copyrights {
+  position: relative;
+  left: 15vw;
+  border-top: 1.5px solid #233a67;
+  width: 70%;
+  text-align: center;
+  font-size: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
